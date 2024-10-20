@@ -1,0 +1,72 @@
+.home-page {
+    padding: 0px 60px 10px 60px;
+  }
+  
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 8px;
+  }
+  
+  .hero-text {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .watch-video-button {
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #007bff, #00d2ff);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .watch-video-button:hover {
+    background: linear-gradient(90deg, #0056b3, #00a1e0);
+  }
+  
+  .hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .hero-sub-section{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .heading {
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+
+  .heading-color{
+    color: #007bff;
+  }
+  
+  .explore-section p {
+    font-size: 1.2em;
+    color: #666;
+  }

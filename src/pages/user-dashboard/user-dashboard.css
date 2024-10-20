@@ -1,0 +1,18 @@
+.conatiner {
+    padding: 40px;
+}
+
+.heading {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.heading-color {
+    color: #007bff;
+}
+
+.explore-section {
+    font-size: 1.0em;
+    color: #666;
+    margin-left: 30px;
+}

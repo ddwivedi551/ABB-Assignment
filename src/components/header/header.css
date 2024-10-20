@@ -1,0 +1,80 @@
+  .header {
+    position: sticky;
+    top: 0;
+    background-color: #ffe5ec;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  .header-container {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    width: 200px;
+    margin-top: -22px;
+  }
+  
+  .nav-menu ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-menu ul li {
+    margin-right: 15px; /* Reduce margin between navigation items */
+    position: relative;
+  }
+  
+  .nav-menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px; /* Increase font size slightly */
+  }
+  
+  .language-select {
+    margin-right: 10px; /* Reduce space between language and login */
+  }
+  
+  .language-select a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .auth-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .auth-options .login {
+    margin-right: 15px; /* Reduce space between login and button */
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+  }
+
+  .login:hover {
+    font-weight: 500;
+  }
+  
+  .auth-options .get-started-button {
+    text-decoration: none;
+  }
+  
+  .auth-options .get-started {
+    background: linear-gradient(90deg, #0093E9 0%, #80D0C7 100%);
+    border: none;
+    padding: 8px 16px; /* Reduce padding to make the button smaller */
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
